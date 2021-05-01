@@ -42,7 +42,7 @@ mod day_01_tests {
     use super::*;
 
     #[test]
-    fn part_1_examples() {
+    fn day_01_part_1_examples() {
         assert_eq!(part_1("(())"), 0);
         assert_eq!(part_1("()()"), 0);
 
@@ -58,7 +58,7 @@ mod day_01_tests {
     }
 
     #[test]
-    fn part_2_examples() {
+    fn day_01_part_2_examples() {
         assert_eq!(part_2(")"), 1);
 
         assert_eq!(part_2("()())"), 5);
