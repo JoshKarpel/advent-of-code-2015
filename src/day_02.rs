@@ -39,8 +39,8 @@ pub fn solve() {
         .map(|line| line.split('x').map(|c| c.parse::<u64>().unwrap()).collect())
         .collect();
 
-    println!("Day 01, Part 1: {}", part_1(&dimensions));
-    println!("Day 01, Part 2: {}", part_2(&dimensions));
+    println!("Day 02, Part 1: {}", part_1(&dimensions));
+    println!("Day 02, Part 2: {}", part_2(&dimensions));
 }
 
 #[cfg(test)]
