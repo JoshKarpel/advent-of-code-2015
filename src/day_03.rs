@@ -52,15 +52,8 @@ mod day_03_tests {
 
     #[test]
     fn day_03_part_1_examples() {
-        assert_eq!(houses_visited(">").len(), 2);
-        assert_eq!(houses_visited("^>v<").len(), 4);
-        assert_eq!(houses_visited("^v^v^v^v^v").len(), 2);
-    }
-
-    #[test]
-    fn day_03_part_2_examples() {
-        assert_eq!(houses_visited(">").len(), 2);
-        assert_eq!(houses_visited("^>v<").len(), 4);
-        assert_eq!(houses_visited("^v^v^v^v^v").len(), 2);
+        assert_eq!(houses_visited(">".chars()).len(), 2);
+        assert_eq!(houses_visited("^>v<".chars()).len(), 4);
+        assert_eq!(houses_visited("^v^v^v^v^v".chars()).len(), 2);
     }
 }
